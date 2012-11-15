@@ -1,6 +1,8 @@
 package org.wildstang.criointerface.comms;
 
 import gnu.io.*;
+import org.wildstang.criointerface.ui.MainApp;
+
 import java.io.*;
 import java.util.*;
 
@@ -23,11 +25,11 @@ public class cRIOComms implements SerialPortEventListener
 
    SerialPort serialPort;
 
-   private static DataManager manager = DataManager.getInstance();
+   private MainApp m_app;
 
-   public cRIOComms()
+   public cRIOComms(MainApp p_app)
    {
-
+      m_app = p_app;
    }
 
    public ArrayList<String> listCommPorts()
@@ -50,7 +52,7 @@ public class cRIOComms implements SerialPortEventListener
    {
       try
       {
-         Thread.sleep(5);
+         Thread.sleep(20);
       }
       catch (InterruptedException e)
       {
@@ -63,37 +65,47 @@ public class cRIOComms implements SerialPortEventListener
             // Handle incoming data
             // if (data is available)
             int available = input.available();
-            System.out.println(available);
+            System.out.println("Bytes available: " + available);
             byte message[] = new byte[available];
             int portNum;
 
             // Read the data
             input.read(message, 0, available);
 
-            // read 1st byte
-            int type = message[0];
-            portNum = message[1];
-            switch (type)
+            ByteArrayInputStream bais = new ByteArrayInputStream(message);
+            while (bais.available() > 0)
             {
-               case CommsConstants.PWM:
-                  int value = message[2];
-                  manager.updatePWM(portNum, value);
-                  break;
-               case CommsConstants.RELAY:
-                  int valA = message[2];
-                  int valB = message[3];
-                  manager.updateRelay(portNum, valA, valB);
-                  break;
-               case CommsConstants.PWM_POWER:
-                  int hasPower = message[2];
-                  // TODO: update data
-                  break;
-               default:
-                  break;
+               // read 1st byte
+               int type = bais.read();
+               switch (type)
+               {
+                  case CommsConstants.PWM:
+                     portNum = bais.read();
+                     int value = bais.read();
+                     m_app.getDataManager().updatePWM(portNum, value);
+                     break;
+                  case CommsConstants.RELAY:
+                     portNum = bais.read();
+                     int valA = bais.read();
+                     int valB = bais.read();
+                     m_app.getDataManager().updateRelay(portNum, valA, valB);
+                     System.out.println("Relay " + portNum + ": A = " + valA + " - B = " + valB);
+                     break;
+                  case CommsConstants.PWM_POWER:
+                     portNum = bais.read();
+                     int hasPower = bais.read();
+                     // TODO: update data
+                     break;
+                  case CommsConstants.I2C:
+                     int val = bais.read();
+                     System.out.println("Current byte: " + val);
+                     break;
+                  default:
+                     break;
+               }
             }
-
          } catch (Exception e) {
-            System.err.println(e.toString());
+            e.printStackTrace();
          }
       }
       // Ignore all the other eventTypes, but you should consider the other ones.
@@ -150,7 +162,7 @@ public class cRIOComms implements SerialPortEventListener
          serialPort.addEventListener(this);
          serialPort.notifyOnDataAvailable(true);
       } catch (Exception e) {
-         System.err.println(e.toString());
+         e.printStackTrace();
       }
    }
 

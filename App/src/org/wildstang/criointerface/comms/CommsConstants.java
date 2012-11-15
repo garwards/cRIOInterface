@@ -9,4 +9,5 @@ public class CommsConstants
    public static final int PWM = 1;
    public static final int RELAY = 2;
    public static final int PWM_POWER = 3;
+   public static final int I2C = 4;
 }

@@ -6,6 +6,8 @@ package org.wildstang.criointerface.data;
  */
 public class RelayPort extends DataPort
 {
+   private static final long serialVersionUID = 1;
+
    private boolean m_outputA;
    private boolean m_outputB;
 

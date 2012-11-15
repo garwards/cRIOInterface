@@ -30,13 +30,27 @@ public class RelayPortCellRenderer implements TableCellRenderer
       JPanel portA = new JPanel();
       portA.add(new JLabel("Port A"));
       panel.add(portA);
-      portA.setBackground(Color.green);
+      if (port.isOutputA())
+      {
+         portA.setBackground(Color.green);
+      }
+      else
+      {
+         portA.setBackground(Color.red);
+      }
 
       // Port B
       JPanel portB = new JPanel();
       portB.add(new JLabel("Port B"));
       panel.add(portB);
-      portB.setBackground(Color.red);
+      if (port.isOutputB())
+      {
+         portB.setBackground(Color.green);
+      }
+      else
+      {
+         portB.setBackground(Color.red);
+      }
 
       // Label
       JLabel label = new JLabel(port.getLabel());

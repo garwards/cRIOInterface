@@ -6,6 +6,8 @@ package org.wildstang.criointerface.data;
  */
 public class PWMPort extends DataPort
 {
+   private static final long serialVersionUID = 1;
+
    private boolean m_isServo = false;
 
    private boolean m_flipped = false;

@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8f56aa9-9727-4d79-9bc1-8da04c5f31aa" name="Default" comment="" />
+    <list default="true" id="f8f56aa9-9727-4d79-9bc1-8da04c5f31aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/ConfigFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/ConfigCancelAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/ConfigOKAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/OpenAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/SaveAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/CommsConstants.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/CommsConstants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/DataManager.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/DataManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/cRIOComms.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/comms/cRIOComms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/DigitalModule.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/DigitalModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/PWMPort.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/PWMPort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/RelayPort.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/data/RelayPort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/AppFrame.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/AppFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/MainApp.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/MainApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/PWMPortCellRenderer.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/PWMPortCellRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/RelayPortCellRenderer.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/RelayPortCellRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/actions/NewAction.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/actions/NewAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/panels/PWMPanel.class" afterPath="$PROJECT_DIR$/out/production/App/org/wildstang/criointerface/ui/panels/PWMPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cRIOInterface_Arduino/cRIOInterface_Arduino.ino" afterPath="$PROJECT_DIR$/../cRIOInterface_Arduino/cRIOInterface_Arduino.ino" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/CommsConstants.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/CommsConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/RelayPort.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/data/RelayPort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortCellRenderer.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortCellRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/NewAction.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/NewAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/panels/PWMPanel.java" afterPath="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/panels/PWMPanel.java" />
+    </list>
     <ignored path="cRIOInterface.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,64 +92,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppFrame.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="104" selection-start="908" selection-end="908" vertical-scroll-proportion="0.39355582">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/NewAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="34" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="47" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelayPortCellRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="35" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+            <state line="47" column="34" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cRIOComms.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java">
+      <file leaf-file-name="PWMPortTableModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="52" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,27 +113,70 @@
       <file leaf-file-name="DigitalModule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="65" column="1" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PWMPortCellRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortCellRenderer.java">
+      <file leaf-file-name="RelayPort.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/RelayPort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="69" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataPort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/DataPort.java">
+      <file leaf-file-name="ConfigFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/ConfigFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+            <state line="139" column="4" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cRIOComms.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="7" selection-start="1248" selection-end="1458" vertical-scroll-proportion="0.01954023">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/OpenAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="6" selection-start="1964" selection-end="1995" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelayPortCellRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="7" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="34" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,25 +189,28 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/Test.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/CommsConstants.java" />
         <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/panels/PWMPanel.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PortCellRenderer.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortTableModel.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortCellRenderer.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/DataPort.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java" />
-        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java" />
         <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/NewAction.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/SaveAction.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/ConfigFrame.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/ConfigOKAction.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/data/RelayPort.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/CommsConstants.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/OpenAction.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java" />
+        <option value="$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java" />
       </list>
     </option>
   </component>
@@ -200,7 +236,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -369,16 +405,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -393,6 +419,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,7 +439,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.excludes" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -415,6 +451,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wildstang.criointerface.ui.actions" />
       <recent name="org.wildstang.criointerface.ui" />
     </key>
   </component>
@@ -594,7 +631,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -604,16 +641,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14484233" sideWeight="0.67745537" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32254463" sideWeight="0.99912894" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32254463" sideWeight="0.99912894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -677,129 +714,85 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.6.0_26/src.zip!/javax/swing/JTable.java">
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/SaveAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1279" column="16" selection-start="48090" selection-end="48090" vertical-scroll-proportion="0.33275864">
-          <folding />
-        </state>
+        <state line="32" column="44" selection-start="830" selection-end="868" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.6.0_26/src.zip!/javax/swing/table/AbstractTableModel.java">
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/CommsConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.33275864">
-          <folding />
-        </state>
+        <state line="11" column="27" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/panels/PWMPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/ConfigOKAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="54" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java">
+    <entry file="jar://C:/Java/jdk1.6.0_26/src.zip!/javax/swing/JFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="39" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortCellRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="69" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="35" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="360" column="16" selection-start="13897" selection-end="13897" vertical-scroll-proportion="0.33275864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/DataPort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="172" selection-end="223" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java">
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/PWMPort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/RelayPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/ConfigFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="4" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/OpenAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="6" selection-start="1964" selection-end="1995" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/PWMPortTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.6.0_26/src.zip!/java/awt/event/KeyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="28" selection-start="10308" selection-end="10308" vertical-scroll-proportion="0.33256617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/actions/NewAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="47" column="34" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/AppFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="104" selection-start="908" selection-end="908" vertical-scroll-proportion="0.39355582">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="31" column="34" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/ui/RelayPortCellRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="7" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/data/DigitalModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="1" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wildstang/criointerface/comms/cRIOComms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="7" selection-start="1248" selection-end="1458" vertical-scroll-proportion="0.01954023">
+          <folding />
         </state>
       </provider>
     </entry>

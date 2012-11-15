@@ -8,6 +8,9 @@ import java.io.Serializable;
  */
 public class DigitalModule implements Serializable
 {
+
+   private static final long serialVersionUID = 1;
+
    private PWMPort[] m_pwm;
    private RelayPort[] m_relays;
 
